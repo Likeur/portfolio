@@ -1,0 +1,485 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    color: rgb(9, 10, 20);
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+}
+.content{
+    background: rgb(255, 255, 255);
+    width: 90%;
+    padding: 30px;
+    height: 80vh;
+    border-radius: 30px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.192);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+
+}
+nav a{
+    margin: 20px;
+    font-weight: 200;
+}
+nav a:hover{
+    color: grey;
+    transition: 400ms;
+}
+nav  ul{
+    margin-top: -5px;
+    display: flex;
+}
+.bar{
+    height: 1px;
+    margin-top: 10px;
+    background-color: rgba(128, 128, 128, 0.137);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.192);
+}
+.logo{
+    margin-top: -15px;
+}
+.logo a{
+    display: block;
+    margin-left: 30px;
+    margin-top: 14px;
+    font-size: 18px;
+}
+.logo img{
+    position: absolute;
+    margin-top: 10.2px;
+}
+.contenue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+.right{
+    width: 60%;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+}
+.right h1{
+    font-size: 5.5em;
+    margin-top: -40px;
+}
+.right p{
+    margin-top: -90px;
+    font-size: 19px;
+    color: rgb(34, 26, 26);
+}
+.right a{
+    position: absolute;
+    display: block;
+    margin-top: 250px;
+    background: rgba(13, 167, 238, 0.212);
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 15px;
+    width: 12%;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.192);
+}
+.right a:hover{
+    background-color: rgba(255, 255, 255, 0.486);
+    transform: scale(0.9);
+    transition: 400ms;
+}
+.left{
+    width: 30%;
+}
+.float{
+    position: absolute;
+    top: 160px;
+    right: 300px;
+    background: rgba(255, 255, 255, 0.692);
+    width: 20%;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.192);
+}
+.float:hover{
+    transform: scale(1.1);
+    transition: 200ms;
+}
+.float p{
+    font-weight: 200;
+    color: rgb(87, 79, 79);
+}
+.floatblue{
+    position: absolute;
+    top: 380px;
+    right: 100px;
+    background: rgba(13, 167, 238, 0.212);
+    width: 20%;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.192);
+}
+.floatblue:hover{
+    transform: scale(1.1);
+    transition: 200ms;
+}
+
+.floatblue p{
+    font-weight: 200;
+    color: rgb(87, 79, 79);
+}
+.social-media{
+    position: absolute;
+    bottom: 70px;
+}
+#aboutskills{
+    height: 110vh;
+    padding: 30px;
+}
+.about{
+    height: 105vh;
+    padding: 30px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.192);
+    border-radius: 30px;
+}
+.about h1{
+    margin-top: -10px;
+}
+.text{
+    margin-top: 20px;
+    width: 25%;
+    height: 85vh;
+    background: white;
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.192);
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.blue{
+    background: rgba(13, 167, 238, 0.212);
+}
+.text h3{
+    background-color: rgba(255, 255, 255, 0.623);
+    padding: 5px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.192);
+    border-radius: 20px;
+    text-align: center;
+    color: rgb(46, 143, 207);
+}
+.text p{
+    color: rgb(92, 85, 85);
+}
+.text ul{
+    margin-top: -15px;
+}
+.text li{
+    color: rgb(92, 85, 85);
+
+}
+#skills{
+    display: flex;
+    justify-content: space-around;
+    height: 60vh;
+    padding: 30px;
+}
+.skill{
+    width: 50%;
+    height: 50vh;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.192);
+    padding: 15px;
+}
+.Skillbar{
+    display: flex;
+    align-items: center;
+    
+    height: 10px ;
+    background: rgba(13, 167, 238, 0.322);
+    width: 80%;
+    border-radius: 20px;
+}
+.level{
+    height: 6px ;
+    background: rgb(255, 255, 255);
+    width: 90%;
+    margin-left: 3px;
+    border-radius: 20px;
+}
+.skil{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 20px;
+    margin-top: 30px;
+    height: 30vh;
+}
+.skil label{
+    color: grey;
+}
+.skil h6{
+    color: grey;
+}
+.level2{
+    width: 30%;
+}
+.level3{
+    width: 70%;
+}
+.level4{
+    width: 50%;
+}
+.contact{
+    width: 30%;
+}
+form{
+    margin-top: 15px;
+    padding: 35px;
+}
+form label{
+    color: grey;
+}
+
+#email{
+    border: none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.192);
+    width: 95%;
+    height: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#text{
+    border: none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.192);
+    width: 95%;
+    height: 55px;
+    margin-top: 10px;
+}
+.btn{
+    border: none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.192);
+    width: 30%;
+    font-weight: 200;
+    height: 35px;
+    margin-top: 20px;
+    margin: 28px;
+    margin-bottom: 10px;
+}
+.btn:hover{
+    background-color: rgba(255, 255, 255, 0.486);
+    transform: scale(0.9);
+    transition: 400ms;
+}
+#envoyer{
+    background-color: rgba(13, 167, 238, 0.212);
+}
+footer{
+
+    height: 20vh;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.192);
+    
+}
+footer h5{
+    color: grey;
+}
+@media screen and (max-width:1024px){
+    .right h1{
+        font-size: 4.6em;
+        text-align: left;
+    
+    
+    }
+    .float{
+        width: 30%;
+        right: 105px;
+        margin-top: -40px;
+    
+    }
+    .floatblue{
+        width: 30%;
+        bottom: 60px;
+        margin-top: -20px;
+    }
+    .right p{
+        font-size: 17px;
+        margin-top: -60px;
+    }
+    .right a{
+        width: 25%;
+    }
+    .text{
+        height: 138vh;
+    }
+    #aboutskills{
+        height: 160vh;
+    }
+    .about{
+        height: 155vh;
+    }
+    #skills{
+        height: 80vh;
+    }
+    .contact{
+        height: 70vh;
+    }
+    .btn{
+        width: 100%;
+        margin: 10px;
+        margin-left: -10px;
+    }
+    
+}
+
+@media screen and (max-width:450px) {
+    .container{
+       padding: 10px;
+    }
+    .content{
+        background: rgb(255, 255, 255);
+        width: 80%;
+        padding: none;
+        height: 90vh;
+        border-radius: 30px;
+        box-shadow: none;
+    }
+    nav li{
+        margin-top: 5px;
+    }
+    nav  ul{
+        margin-top: -5px;
+        display: flex;
+        flex-direction: column;
+    }
+    nav a{
+        font-size: 18px;
+    }
+    .logo a{
+        display: none;
+        
+    }
+    .logo img{
+        width: 100px;
+    }
+    .right{
+        margin-top: -90px;
+        width: 100%;
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .right h1{
+        font-size: 2em;
+        margin-top: -40px;
+        width: 100%;
+        text-align: center;
+    }
+    .right p{
+        margin-top: -20px;
+        font-size: 19px;
+        text-align: center;
+        color: rgb(82, 71, 71);
+    }
+    .right a{
+        width: 42%;
+    }
+    .float{
+        display: none;
+    }
+    .floatblue{
+        display: none;
+    }
+    #aboutskills{
+        padding: 5px;
+        height: 405vh;
+        padding: 30px;
+    }
+    .about{
+        padding: 5px;
+        background: none;
+        box-shadow: none;
+        margin-left: -24px;
+        width: 95%;
+        height: 304vh;
+    }
+    .text p{
+        font-size: 18px;
+        text-align: justify;
+    }
+    .box{
+        display: flex;
+       flex-direction: column;
+    }
+    .text{
+        width: 100%;
+        height:122vh;
+    }
+    #skills{
+        display: flex;
+        flex-direction: column;
+        height: 140vh;
+        
+    }
+    .skill{
+        display: block;
+      width: 90%;
+      margin-top: -60px;
+    }
+    form{
+        margin-top: 15px;
+        padding: 5px;
+    }
+    .contact{
+        margin-top: 40px;
+        width: 90%;
+        height: 65vh;
+    }
+    #email{
+        width: 100%;
+    }
+    #text{
+       width: 100%;
+    }
+    .btn{
+        width: 100%;
+        font-weight: 200;
+        height: 35px;
+        margin-left: -5px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    .contenue{
+        display: flex;
+        flex-direction: column;
+    }
+    footer{
+        box-shadow: none
+        
+    }
+    .social-medi{
+        margin-top: 60px;
+    }
+    .text3{
+        height: 100vh ;
+    }
+    .blue{
+        height: 110vh;
+    }
+}
