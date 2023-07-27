@@ -453,9 +453,11 @@ footer h5{
     }
     #email{
         width: 100%;
+        box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.192);
     }
     #text{
        width: 100%;
+       box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.192);
     }
     .btn{
         width: 100%;
